@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  color: #151517;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+a:active {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #151517;
+}
+
+::-moz-placeholder {
+  color: #151517;
+}
+
+:-ms-input-placeholder {
+  color: #151517;
+}
+
+::placeholder {
+  color: #151517;
+}
+
+p {
+  margin: 0 0 2rem;
+}
