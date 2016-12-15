@@ -1,0 +1,25 @@
+{
+  "name": "test-website",
+  "description": "This is a test website to learn Git, Gulp & Sass",
+  "main": "gulpfile.js",
+  "authors": [
+    "Dylan Jones"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dylan-jones/test-website",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.0"
+  },
+  "dependencies": {
+    "normalize-scss": "^3.0.3",
+    "breakpoint-sass": "^2.7.1"
+  }
+}

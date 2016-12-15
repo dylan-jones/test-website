@@ -51,9 +51,32 @@ input:focus {
 }
 
 ::placeholder {
-  color: $black;
+  color: $blue;
 }
 
 p {
   margin: 0 0 2rem;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+
+  @include breakpoint($tablet) {
+    padding-bottom: 19rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.semi {
+  font-weight: $semi;
+}
+
+.bold {
+  font-weight: $bold;
 }
